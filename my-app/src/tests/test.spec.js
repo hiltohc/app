@@ -1,7 +1,7 @@
 import React from 'react';
 import { render, fireEvent, waitFor } from '@testing-library/react-native';
 import { UsersList } from './UsersList';
-import { deleteDoc } from './firebaseConnection'; // Certifique-se de importar a função mockada corretamente
+import { deleteDoc } from './firebaseConnection'; 
 
 // Mock para a função de edição
 const handleEdit = jest.fn();
